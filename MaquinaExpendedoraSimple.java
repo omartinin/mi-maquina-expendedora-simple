@@ -52,6 +52,13 @@ public class MaquinaExpendedoraSimple {
     }
 
     /**
+     * Devuelve l total de dinero almacenado en la maquina desde su ultimo vaciado
+     */
+    public int getTotalDineroAcumulado() {
+        return totalDineroAcumulado;
+    }
+    
+    /**
      * Simula la introduccion de dinero por parte del cliente actual
      */
     public void introducirDinero(int cantidadIntroducida) {
